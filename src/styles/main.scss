@@ -1,14 +1,17 @@
+@import url(./blocks/header.scss);
+@import url(./blocks/card.scss);
+@import url(./blocks/stars.scss);
+@import url(./blocks/container.scss);
+
 html {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
 }
 
-body {
+body,
+ul,
+p {
   margin: 0;
+  padding: 0;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-@import "_header.scss";
-@import "_catalog.scss";
